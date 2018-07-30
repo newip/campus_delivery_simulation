@@ -18,7 +18,7 @@
 
 var fs = require('fs');
 
-fs.readFile('../ECDICT/ecdict.csv', 'utf-8', function (err, data) {
+fs.readFile('../../ECDICT/ecdict.csv', 'utf-8', function (err, data) {
     if (err) {
         console.log(err);
     } else {
