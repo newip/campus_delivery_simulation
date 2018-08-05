@@ -24,6 +24,7 @@
     "babel": "^6.23.0",
     "eslint": "^5.2.0",
     "log4js": "^3.0.2",
-    "mongodb": "^3.1.1"
+    "mongodb": "^3.1.1",
+    "node-dijkstra": "^2.5.0"
   }
 }

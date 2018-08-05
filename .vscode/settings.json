@@ -1,5 +1,7 @@
 {
     "appService.zipIgnorePattern": [
         "node_modules{,/**}"
-    ]
+    ],
+    "eslint.packageManager": "yarn",
+
 }
