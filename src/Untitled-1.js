@@ -100,3 +100,98 @@ route.addNode('C', { B:2, D:1 })
 route.addNode('D', { C:1, B:4 })
  
 route.path('A', 'D') // => [ 'A', 'B', 'C', 'D' ]
+
+
+
+
+
+
+
+
+
+
+
+var Node = function(value){
+    var node = {};
+    node.value = value;
+    node.next = null;
+    return node;
+  };
+  
+var LinkedList = function(){
+    var list = {};
+    list.head = null;
+    list.tail = null;
+    var listItems = {};
+    list.listItems = listItems;
+    var itemCount = 0;
+    list.addToTail = function(value){
+        var newNode = new Node();
+        newNode.value = value;
+        listItems[itemCount] = newNode;
+        list.tail = newNode;
+      // for adding first Node
+        if(list.head == null){
+            list.head = newNode;
+        } else {
+            listItems[itemCount-1].next = itemCount;
+        }
+        itemCount++;
+    };
+    list.removeHead = function(){
+      delete listItems[0];
+      for(var i = 0; i < itemCount; i++){
+        if(i == itemCount - 1){
+          break;
+        } else {
+          listItems[i] = listItems[i+1];
+          if(listItems[i].next !== null){
+            listItems[i].next -= 1;
+          }
+          delete listItems[i+1];
+        }
+      }
+      itemCount--;
+      list.head = listItems[0];
+      list.tail = listItems[itemCount-1];
+    };
+    list.contains = function(target){
+      for(var i = 0; i < itemCount; i++){
+        // if target string is equal to value property of a Node
+        if(listItems[i].value === target){
+          return true;
+        }
+      }
+      return false;
+    };
+    return list;
+  };
+  
+  for (i=0; i<availableJDCar; i++) {
+    var data = cargoJD[i];
+    var listData = Object.keys(data).map(function(key){
+        return {label: key, value: data[key]};
+    });
+    listAll(listData, "");
+}
+
+function listAll(data, prefix) {
+    console.log(prefix);
+    for (i=0; i<data.length; i++) {
+        var temp = new LinkedList(data);
+        var tempString = prefix + temp.removeHead(i);
+        listAll(temp,tempString);
+    }
+}
+
+  // Tests
+  // ======
+  var myList = new LinkedList();
+  myList.addToTail('item one');
+  
+  myList.removeHead();
+  myList.addToTail('item two');
+  myList.addToTail('item three');
+  myList.addToTail('item four');
+  
+  console.log(myList);

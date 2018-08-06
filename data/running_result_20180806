@@ -1,0 +1,625 @@
+RobinH:src robinhe$ node simu_jd_car.js
+Connected
+MongoDB query success. XinBox Sites total: 43
+Target cargo / poppetrys:
+ [ [ 5, 25, 20, 19, 1, 42 ],
+  [ 22, 23, 39, 35, 15, 16 ],
+  [ 41, 20, 14, 15, 40, 5 ],
+  [ 7, 23, 22, 13, 24, 26 ],
+  [ 8, 21, 19, 17, 22, 26 ],
+  [ 23, 3, 21, 11, 37, 38 ] ]
+
+XB bot totally drived 26964 meters to deliver all the 36 poppetry.
+XB bot average driving distance was 749 meters per poppetry.
+XB bot totally consumed '04:47:06' to deliver all the 36 poppetry.
+XB bot average delivery time was '00:07:59' per poppetry.
+
+cargoJD : 0 Best Route is : [ 0, '25', '20', '5', '19', '42', '1', 0 ]
+Total Distance: 2024 meters.
+The JD car active running time is : 20 minutes.
+The JD car waiting time is : 7 minutes.
+The JD car total working time is : '00:27:24'
+Successfully delivered at 6  site stops and  6  poppetrys.
+
+cargoJD : 1 Best Route is : [ 0, '39', '23', '22', '15', '16', '35', 0 ]
+Total Distance: 1247 meters.
+The JD car active running time is : 12 minutes.
+The JD car waiting time is : 46 minutes.
+The JD car total working time is : '00:58:30'
+Successfully delivered at 6  site stops and  6  poppetrys.
+
+cargoJD : 2 Best Route is : [ 0, '41', '14', '20', '5', '15', '40', 0 ]
+Total Distance: 1692 meters.
+The JD car active running time is : 17 minutes.
+The JD car waiting time is : 14 minutes.
+The JD car total working time is : '00:30:44'
+Successfully delivered at 6  site stops and  6  poppetrys.
+
+cargoJD : 3 Best Route is : [ 0, '23', '24', '26', '13', '7', '22', 0 ]
+Total Distance: 1046 meters.
+The JD car active running time is : 10 minutes.
+The JD car waiting time is : 91 minutes.
+The JD car total working time is : '01:41:49'
+Successfully delivered at 6  site stops and  6  poppetrys.
+
+cargoJD : 4 Best Route is : [ 0, '21', '8', '17', '19', '22', '26', 0 ]
+Total Distance: 1638 meters.
+The JD car active running time is : 16 minutes.
+The JD car waiting time is : 88 minutes.
+The JD car total working time is : '01:43:52'
+Successfully delivered at 6  site stops and  6  poppetrys.
+
+cargoJD : 5 Best Route is : [ 0, '23', '11', '3', '21', '37', '38', 0 ]
+Total Distance: 1453 meters.
+The JD car active running time is : 14 minutes.
+The JD car waiting time is : 50 minutes.
+The JD car total working time is : '01:04:47'
+Successfully delivered at 6  site stops and  6  poppetrys.
+
+JD car totally drived 9099 meters to deliver all the 36 poppetry.
+JD car average driving distance was 253 meters per poppetry.
+JD car totally consumed '06:27:06' to deliver all the 36 poppetry.
+JD car average delivery time was '00:10:45' per poppetry.
+RobinH:src robinhe$ node simu_jd_car.js
+Connected
+MongoDB query success. XinBox Sites total: 43
+Target cargo / poppetrys:
+ [ [ 34, 33, 40, 11, 15, 31 ],
+  [ 35, 42, 4, 39, 38, 14 ],
+  [ 2, 20, 18, 23, 41, 13 ],
+  [ 40, 37, 1, 9, 33, 41 ],
+  [ 24, 12, 33, 25, 38, 5 ],
+  [ 30, 2, 38, 29, 42, 33 ] ]
+
+XB bot totally drived 22375 meters to deliver all the 36 poppetry.
+XB bot average driving distance was 622 meters per poppetry.
+XB bot totally consumed '04:01:18' to deliver all the 36 poppetry.
+XB bot average delivery time was '00:06:42' per poppetry.
+
+cargoJD : 0 Best Route is : [ 0, '34', '31', '40', '11', '15', '33', 0 ]
+Total Distance: 1235 meters.
+The JD car active running time is : 12 minutes.
+The JD car waiting time is : 77 minutes.
+The JD car total working time is : '01:29:45'
+Successfully delivered at 6  site stops and  6  poppetrys.
+
+cargoJD : 1 Best Route is : [ 0, '35', '39', '14', '4', '42', '38', 0 ]
+Total Distance: 1559 meters.
+The JD car active running time is : 16 minutes.
+The JD car waiting time is : 49 minutes.
+The JD car total working time is : '01:04:23'
+Successfully delivered at 6  site stops and  6  poppetrys.
+
+cargoJD : 2 Best Route is : [ 0, '23', '20', '13', '2', '18', '41', 0 ]
+Total Distance: 1588 meters.
+The JD car active running time is : 16 minutes.
+The JD car waiting time is : 61 minutes.
+The JD car total working time is : '01:16:56'
+Successfully delivered at 6  site stops and  6  poppetrys.
+
+cargoJD : 3 Best Route is : [ 0, '33', '40', '9', '1', '37', '41', 0 ]
+Total Distance: 1300 meters.
+The JD car active running time is : 13 minutes.
+The JD car waiting time is : 87 minutes.
+The JD car total working time is : '01:40:04'
+Successfully delivered at 6  site stops and  6  poppetrys.
+
+cargoJD : 4 Best Route is : [ 0, '25', '24', '5', '12', '33', '38', 0 ]
+Total Distance: 1472 meters.
+The JD car active running time is : 15 minutes.
+The JD car waiting time is : 39 minutes.
+The JD car total working time is : '00:53:28'
+Successfully delivered at 6  site stops and  6  poppetrys.
+
+cargoJD : 5 Best Route is : [ 0, '38', '30', '42', '2', '29', '33', 0 ]
+Total Distance: 1941 meters.
+The JD car active running time is : 19 minutes.
+The JD car waiting time is : 12 minutes.
+The JD car total working time is : '00:31:03'
+Successfully delivered at 6  site stops and  6  poppetrys.
+
+JD car totally drived 9095 meters to deliver all the 36 poppetry.
+JD car average driving distance was 253 meters per poppetry.
+JD car totally consumed '06:55:39' to deliver all the 36 poppetry.
+JD car average delivery time was '00:11:33' per poppetry.
+RobinH:src robinhe$ node simu_jd_car.js
+Connected
+MongoDB query success. XinBox Sites total: 43
+Target cargo / poppetrys:
+ [ [ 18, 37, 20, 8, 10, 36 ],
+  [ 5, 11, 30, 10, 41, 25 ],
+  [ 11, 32, 4, 2, 9, 41 ],
+  [ 17, 6, 38, 36, 36, 30 ],
+  [ 2, 15, 6, 39, 20, 19 ],
+  [ 28, 17, 7, 1, 36, 9 ] ]
+
+XB bot totally drived 25079 meters to deliver all the 36 poppetry.
+XB bot average driving distance was 697 meters per poppetry.
+XB bot totally consumed '04:28:17' to deliver all the 36 poppetry.
+XB bot average delivery time was '00:07:27' per poppetry.
+
+cargoJD : 0 Best Route is : [ 0, '37', '8', '10', '18', '20', '36', 0 ]
+Total Distance: 1452 meters.
+The JD car active running time is : 14 minutes.
+The JD car waiting time is : 46 minutes.
+The JD car total working time is : '01:00:47'
+Successfully delivered at 6  site stops and  6  poppetrys.
+
+cargoJD : 1 Best Route is : [ 0, '30', '25', '11', '5', '10', '41', 0 ]
+Total Distance: 1683 meters.
+The JD car active running time is : 17 minutes.
+The JD car waiting time is : 92 minutes.
+The JD car total working time is : '01:48:51'
+Successfully delivered at 6  site stops and  6  poppetrys.
+
+cargoJD : 2 Best Route is : [ 0, '32', '11', '9', '2', '4', '41', 0 ]
+Total Distance: 1713 meters.
+The JD car active running time is : 17 minutes.
+The JD car waiting time is : 76 minutes.
+The JD car total working time is : '01:32:44'
+Successfully delivered at 6  site stops and  6  poppetrys.
+
+cargoJD : 3 Best Route is : [ 0, '38', '17', '6', '30', '36', 0 ]
+Total Distance: 1250 meters.
+The JD car active running time is : 12 minutes.
+The JD car waiting time is : 7 minutes.
+The JD car total working time is : '00:19:22'
+Successfully delivered at 5  site stops and  6  poppetrys.
+
+cargoJD : 4 Best Route is : [ 0, '6', '19', '2', '15', '20', '39', 0 ]
+Total Distance: 1637 meters.
+The JD car active running time is : 16 minutes.
+The JD car waiting time is : 20 minutes.
+The JD car total working time is : '00:36:12'
+Successfully delivered at 6  site stops and  6  poppetrys.
+
+cargoJD : 5 Best Route is : [ 0, '28', '9', '1', '17', '7', '36', 0 ]
+Total Distance: 1378 meters.
+The JD car active running time is : 14 minutes.
+The JD car waiting time is : 11 minutes.
+The JD car total working time is : '00:24:55'
+Successfully delivered at 6  site stops and  6  poppetrys.
+
+JD car totally drived 9114 meters to deliver all the 36 poppetry.
+JD car average driving distance was 253 meters per poppetry.
+JD car totally consumed '05:42:51' to deliver all the 36 poppetry.
+JD car average delivery time was '00:09:31' per poppetry.
+RobinH:src robinhe$ node simu_jd_car.js
+Connected
+MongoDB query success. XinBox Sites total: 43
+Target cargo / poppetrys:
+ [ [ 28, 30, 9, 23, 15, 12 ],
+  [ 37, 4, 1, 15, 4, 17 ],
+  [ 22, 13, 25, 31, 16, 5 ],
+  [ 22, 26, 18, 30, 6, 17 ],
+  [ 12, 27, 38, 2, 29, 9 ],
+  [ 15, 5, 19, 21, 42, 18 ] ]
+
+XB bot totally drived 28953 meters to deliver all the 36 poppetry.
+XB bot average driving distance was 804 meters per poppetry.
+XB bot totally consumed '05:06:57' to deliver all the 36 poppetry.
+XB bot average delivery time was '00:08:32' per poppetry.
+
+cargoJD : 0 Best Route is : [ 0, '28', '30', '23', '15', '12', '9', 0 ]
+Total Distance: 1142 meters.
+The JD car active running time is : 11 minutes.
+The JD car waiting time is : 26 minutes.
+The JD car total working time is : '00:37:29'
+Successfully delivered at 6  site stops and  6  poppetrys.
+
+cargoJD : 1 Best Route is : [ 0, '37', '17', '4', '15', '1', 0 ]
+Total Distance: 1576 meters.
+The JD car active running time is : 16 minutes.
+The JD car waiting time is : 12 minutes.
+The JD car total working time is : '00:27:25'
+Successfully delivered at 5  site stops and  6  poppetrys.
+
+cargoJD : 2 Best Route is : [ 0, '22', '16', '5', '13', '25', '31', 0 ]
+Total Distance: 1521 meters.
+The JD car active running time is : 15 minutes.
+The JD car waiting time is : 90 minutes.
+The JD car total working time is : '01:44:59'
+Successfully delivered at 6  site stops and  6  poppetrys.
+
+cargoJD : 3 Best Route is : [ 0, '26', '22', '18', '17', '6', '30', 0 ]
+Total Distance: 1594 meters.
+The JD car active running time is : 16 minutes.
+The JD car waiting time is : 34 minutes.
+The JD car total working time is : '00:49:45'
+Successfully delivered at 6  site stops and  6  poppetrys.
+
+cargoJD : 4 Best Route is : [ 0, '38', '27', '9', '2', '12', '29', 0 ]
+Total Distance: 1492 meters.
+The JD car active running time is : 15 minutes.
+The JD car waiting time is : 41 minutes.
+The JD car total working time is : '00:56:01'
+Successfully delivered at 6  site stops and  6  poppetrys.
+
+cargoJD : 5 Best Route is : [ 0, '15', '5', '18', '19', '42', '21', 0 ]
+Total Distance: 1933 meters.
+The JD car active running time is : 19 minutes.
+The JD car waiting time is : 3 minutes.
+The JD car total working time is : '00:22:24'
+Successfully delivered at 6  site stops and  6  poppetrys.
+
+JD car totally drived 9258 meters to deliver all the 36 poppetry.
+JD car average driving distance was 257 meters per poppetry.
+JD car totally consumed '04:58:03' to deliver all the 36 poppetry.
+JD car average delivery time was '00:08:17' per poppetry.
+RobinH:src robinhe$ node simu_jd_car.js
+Connected
+MongoDB query success. XinBox Sites total: 43
+Target cargo / poppetrys:
+ [ [ 23, 28, 13, 16, 23, 38 ],
+  [ 31, 39, 21, 30, 36, 27 ],
+  [ 36, 42, 4, 27, 7, 41 ],
+  [ 27, 41, 3, 21, 11, 9 ],
+  [ 6, 9, 17, 19, 7, 35 ],
+  [ 41, 31, 36, 21, 25, 1 ] ]
+
+XB bot totally drived 21375 meters to deliver all the 36 poppetry.
+XB bot average driving distance was 594 meters per poppetry.
+XB bot totally consumed '03:51:20' to deliver all the 36 poppetry.
+XB bot average delivery time was '00:06:26' per poppetry.
+
+cargoJD : 0 Best Route is : [ 0, '28', '23', '13', '16', '38', 0 ]
+Total Distance: 1252 meters.
+The JD car active running time is : 12 minutes.
+The JD car waiting time is : 45 minutes.
+The JD car total working time is : '00:57:55'
+Successfully delivered at 5  site stops and  6  poppetrys.
+
+cargoJD : 1 Best Route is : [ 0, '39', '21', '30', '27', '31', '36', 0 ]
+Total Distance: 803 meters.
+The JD car active running time is : 8 minutes.
+The JD car waiting time is : 17 minutes.
+The JD car total working time is : '00:25:10'
+Successfully delivered at 6  site stops and  6  poppetrys.
+
+cargoJD : 2 Best Route is : [ 0, '36', '27', '7', '4', '42', '41', 0 ]
+Total Distance: 1682 meters.
+The JD car active running time is : 17 minutes.
+The JD car waiting time is : 8 minutes.
+The JD car total working time is : '00:24:21'
+Successfully delivered at 6  site stops and  6  poppetrys.
+
+cargoJD : 3 Best Route is : [ 0, '27', '11', '9', '3', '21', '41', 0 ]
+Total Distance: 1607 meters.
+The JD car active running time is : 16 minutes.
+The JD car waiting time is : 91 minutes.
+The JD car total working time is : '01:47:09'
+Successfully delivered at 6  site stops and  6  poppetrys.
+
+cargoJD : 4 Best Route is : [ 0, '9', '7', '19', '17', '6', '35', 0 ]
+Total Distance: 1474 meters.
+The JD car active running time is : 15 minutes.
+The JD car waiting time is : 19 minutes.
+The JD car total working time is : '00:33:37'
+Successfully delivered at 6  site stops and  6  poppetrys.
+
+cargoJD : 5 Best Route is : [ 0, '41', '21', '1', '25', '31', '36', 0 ]
+Total Distance: 1223 meters.
+The JD car active running time is : 12 minutes.
+The JD car waiting time is : 66 minutes.
+The JD car total working time is : '01:17:42'
+Successfully delivered at 6  site stops and  6  poppetrys.
+
+JD car totally drived 8040 meters to deliver all the 36 poppetry.
+JD car average driving distance was 223 meters per poppetry.
+JD car totally consumed '05:25:54' to deliver all the 36 poppetry.
+JD car average delivery time was '00:09:03' per poppetry.
+
+RobinH:src robinhe$ node simu_jd_car.js
+Connected
+MongoDB query success. XinBox Sites total: 43
+Target cargo / poppetrys:
+ [ [ 27, 25, 12, 11, 8, 1 ],
+  [ 42, 10, 1, 40, 30, 1 ],
+  [ 26, 32, 12, 15, 10, 28 ],
+  [ 23, 24, 32, 38, 16, 35 ],
+  [ 8, 5, 24, 25, 2, 19 ],
+  [ 18, 24, 41, 36, 2, 24 ] ]
+
+XB bot totally drived 25148 meters to deliver all the 36 poppetry.
+XB bot average driving distance was 699 meters per poppetry.
+XB bot totally consumed '04:28:59' to deliver all the 36 poppetry.
+XB bot average delivery time was '00:07:28' per poppetry.
+
+cargoJD : 0 Best Route is : [ 0, '27', '25', '11', '12', '1', '8', 0 ]
+Total Distance: 1129 meters.
+The JD car active running time is : 11 minutes.
+The JD car waiting time is : 82 minutes.
+The JD car total working time is : '01:33:27'
+Successfully delivered at 6  site stops and  6  poppetrys.
+
+cargoJD : 1 Best Route is : [ 0, '1', '10', '42', '30', '40', 0 ]
+Total Distance: 1565 meters.
+The JD car active running time is : 16 minutes.
+The JD car waiting time is : 38 minutes.
+The JD car total working time is : '00:53:24'
+Successfully delivered at 5  site stops and  6  poppetrys.
+
+cargoJD : 2 Best Route is : [ 0, '32', '26', '15', '12', '10', '28', 0 ]
+Total Distance: 1336 meters.
+The JD car active running time is : 13 minutes.
+The JD car waiting time is : 42 minutes.
+The JD car total working time is : '00:55:08'
+Successfully delivered at 6  site stops and  6  poppetrys.
+
+cargoJD : 3 Best Route is : [ 0, '32', '24', '23', '16', '38', '35', 0 ]
+Total Distance: 1231 meters.
+The JD car active running time is : 12 minutes.
+The JD car waiting time is : 74 minutes.
+The JD car total working time is : '01:25:51'
+Successfully delivered at 6  site stops and  6  poppetrys.
+
+cargoJD : 4 Best Route is : [ 0, '8', '19', '2', '5', '24', '25', 0 ]
+Total Distance: 1647 meters.
+The JD car active running time is : 16 minutes.
+The JD car waiting time is : 85 minutes.
+The JD car total working time is : '01:41:08'
+Successfully delivered at 6  site stops and  6  poppetrys.
+
+cargoJD : 5 Best Route is : [ 0, '41', '18', '2', '24', '36', 0 ]
+Total Distance: 1536 meters.
+The JD car active running time is : 15 minutes.
+The JD car waiting time is : 43 minutes.
+The JD car total working time is : '00:57:54'
+Successfully delivered at 5  site stops and  6  poppetrys.
+
+JD car totally drived 8444 meters to deliver all the 36 poppetry.
+JD car average driving distance was 235 meters per poppetry.
+JD car totally consumed '07:26:52' to deliver all the 36 poppetry.
+JD car average delivery time was '00:12:25' per poppetry.
+
+RobinH:src robinhe$ node simu_jd_car.js
+Connected
+MongoDB query success. XinBox Sites total: 43
+Target cargo / poppetrys:
+ [ [ 10, 17, 10, 30, 19, 31 ],
+  [ 10, 28, 3, 2, 18, 2 ],
+  [ 12, 16, 4, 22, 38, 7 ],
+  [ 6, 26, 29, 13, 16, 27 ],
+  [ 1, 22, 33, 8, 24, 41 ],
+  [ 26, 3, 8, 8, 3, 8 ] ]
+
+XB bot totally drived 27620 meters to deliver all the 36 poppetry.
+XB bot average driving distance was 767 meters per poppetry.
+XB bot totally consumed '04:53:39' to deliver all the 36 poppetry.
+XB bot average delivery time was '00:08:09' per poppetry.
+
+cargoJD : 0 Best Route is : [ 0, '17', '19', '10', '30', '31', 0 ]
+Total Distance: 1547 meters.
+The JD car active running time is : 15 minutes.
+The JD car waiting time is : 53 minutes.
+The JD car total working time is : '01:08:23'
+Successfully delivered at 5  site stops and  6  poppetrys.
+
+cargoJD : 1 Best Route is : [ 0, '28', '10', '18', '3', '2', 0 ]
+Total Distance: 1358 meters.
+The JD car active running time is : 14 minutes.
+The JD car waiting time is : 11 minutes.
+The JD car total working time is : '00:24:36'
+Successfully delivered at 5  site stops and  6  poppetrys.
+
+cargoJD : 2 Best Route is : [ 0, '22', '12', '7', '4', '16', '38', 0 ]
+Total Distance: 1419 meters.
+The JD car active running time is : 14 minutes.
+The JD car waiting time is : 69 minutes.
+The JD car total working time is : '01:23:25'
+Successfully delivered at 6  site stops and  6  poppetrys.
+
+cargoJD : 3 Best Route is : [ 0, '29', '26', '13', '16', '6', '27', 0 ]
+Total Distance: 1332 meters.
+The JD car active running time is : 13 minutes.
+The JD car waiting time is : 85 minutes.
+The JD car total working time is : '01:37:56'
+Successfully delivered at 6  site stops and  6  poppetrys.
+
+cargoJD : 4 Best Route is : [ 0, '33', '24', '22', '1', '8', '41', 0 ]
+Total Distance: 1282 meters.
+The JD car active running time is : 13 minutes.
+The JD car waiting time is : 10 minutes.
+The JD car total working time is : '00:23:09'
+Successfully delivered at 6  site stops and  6  poppetrys.
+
+cargoJD : 5 Best Route is : [ 0, '26', '3', '8', 0 ]
+Total Distance: 1404 meters.
+The JD car active running time is : 14 minutes.
+The JD car waiting time is : 19 minutes.
+The JD car total working time is : '00:33:02'
+Successfully delivered at 3  site stops and  6  poppetrys.
+
+JD car totally drived 8343 meters to deliver all the 36 poppetry.
+JD car average driving distance was 232 meters per poppetry.
+JD car totally consumed '05:30:31' to deliver all the 36 poppetry.
+JD car average delivery time was '00:09:11' per poppetry.
+
+RobinH:src robinhe$ node simu_jd_car.js
+Connected
+MongoDB query success. XinBox Sites total: 43
+Target cargo / poppetrys:
+ [ [ 11, 3, 19, 38, 40, 25 ],
+  [ 38, 41, 13, 41, 8, 40 ],
+  [ 17, 21, 10, 41, 4, 31 ],
+  [ 40, 26, 13, 12, 28, 3 ],
+  [ 28, 16, 38, 10, 41, 37 ],
+  [ 42, 25, 39, 38, 30, 35 ] ]
+
+XB bot totally drived 22433 meters to deliver all the 36 poppetry.
+XB bot average driving distance was 623 meters per poppetry.
+XB bot totally consumed '04:01:53' to deliver all the 36 poppetry.
+XB bot average delivery time was '00:06:43' per poppetry.
+
+cargoJD : 0 Best Route is : [ 0, '38', '19', '3', '11', '25', '40', 0 ]
+Total Distance: 1724 meters.
+The JD car active running time is : 17 minutes.
+The JD car waiting time is : 13 minutes.
+The JD car total working time is : '00:30:01'
+Successfully delivered at 6  site stops and  6  poppetrys.
+
+cargoJD : 1 Best Route is : [ 0, '38', '41', '8', '13', '40', 0 ]
+Total Distance: 1298 meters.
+The JD car active running time is : 13 minutes.
+The JD car waiting time is : 50 minutes.
+The JD car total working time is : '01:03:07'
+Successfully delivered at 5  site stops and  6  poppetrys.
+
+cargoJD : 2 Best Route is : [ 0, '41', '10', '17', '4', '21', '31', 0 ]
+Total Distance: 1548 meters.
+The JD car active running time is : 15 minutes.
+The JD car waiting time is : 63 minutes.
+The JD car total working time is : '01:18:48'
+Successfully delivered at 6  site stops and  6  poppetrys.
+
+cargoJD : 3 Best Route is : [ 0, '40', '26', '12', '13', '3', '28', 0 ]
+Total Distance: 1335 meters.
+The JD car active running time is : 13 minutes.
+The JD car waiting time is : 15 minutes.
+The JD car total working time is : '00:28:19'
+Successfully delivered at 6  site stops and  6  poppetrys.
+
+cargoJD : 4 Best Route is : [ 0, '38', '41', '10', '16', '28', '37', 0 ]
+Total Distance: 1140 meters.
+The JD car active running time is : 11 minutes.
+The JD car waiting time is : 17 minutes.
+The JD car total working time is : '00:28:37'
+Successfully delivered at 6  site stops and  6  poppetrys.
+
+cargoJD : 5 Best Route is : [ 0, '38', '42', '30', '25', '39', '35', 0 ]
+Total Distance: 1366 meters.
+The JD car active running time is : 14 minutes.
+The JD car waiting time is : 69 minutes.
+The JD car total working time is : '01:22:59'
+Successfully delivered at 6  site stops and  6  poppetrys.
+
+JD car totally drived 8410 meters to deliver all the 36 poppetry.
+JD car average driving distance was 234 meters per poppetry.
+JD car totally consumed '05:11:51' to deliver all the 36 poppetry.
+JD car average delivery time was '00:08:40' per poppetry.
+
+RobinH:src robinhe$ node simu_jd_car.js
+Connected
+MongoDB query success. XinBox Sites total: 43
+Target cargo / poppetrys:
+ [ [ 17, 25, 33, 34, 23, 31 ],
+  [ 30, 7, 27, 34, 33, 25 ],
+  [ 27, 28, 37, 23, 34, 23 ],
+  [ 14, 31, 37, 4, 10, 5 ],
+  [ 41, 1, 7, 7, 10, 20 ],
+  [ 10, 36, 9, 18, 23, 4 ] ]
+
+XB bot totally drived 21781 meters to deliver all the 36 poppetry.
+XB bot average driving distance was 605 meters per poppetry.
+XB bot totally consumed '03:55:23' to deliver all the 36 poppetry.
+XB bot average delivery time was '00:06:32' per poppetry.
+
+cargoJD : 0 Best Route is : [ 0, '33', '31', '25', '23', '17', '34', 0 ]
+Total Distance: 1492 meters.
+The JD car active running time is : 15 minutes.
+The JD car waiting time is : 48 minutes.
+The JD car total working time is : '01:02:27'
+Successfully delivered at 6  site stops and  6  poppetrys.
+
+cargoJD : 1 Best Route is : [ 0, '34', '30', '27', '7', '25', '33', 0 ]
+Total Distance: 1135 meters.
+The JD car active running time is : 11 minutes.
+The JD car waiting time is : 85 minutes.
+The JD car total working time is : '01:36:16'
+Successfully delivered at 6  site stops and  6  poppetrys.
+
+cargoJD : 2 Best Route is : [ 0, '27', '23', '28', '37', '34', 0 ]
+Total Distance: 631 meters.
+The JD car active running time is : 6 minutes.
+The JD car waiting time is : 48 minutes.
+The JD car total working time is : '00:54:07'
+Successfully delivered at 5  site stops and  6  poppetrys.
+
+cargoJD : 3 Best Route is : [ 0, '31', '5', '4', '10', '14', '37', 0 ]
+Total Distance: 1554 meters.
+The JD car active running time is : 16 minutes.
+The JD car waiting time is : 41 minutes.
+The JD car total working time is : '00:56:28'
+Successfully delivered at 6  site stops and  6  poppetrys.
+
+cargoJD : 4 Best Route is : [ 0, '41', '10', '1', '7', '20', 0 ]
+Total Distance: 1247 meters.
+The JD car active running time is : 12 minutes.
+The JD car waiting time is : 62 minutes.
+The JD car total working time is : '01:14:19'
+Successfully delivered at 5  site stops and  6  poppetrys.
+
+cargoJD : 5 Best Route is : [ 0, '36', '23', '9', '10', '4', '18', 0 ]
+Total Distance: 1306 meters.
+The JD car active running time is : 13 minutes.
+The JD car waiting time is : 38 minutes.
+The JD car total working time is : '00:51:16'
+Successfully delivered at 6  site stops and  6  poppetrys.
+
+JD car totally drived 7365 meters to deliver all the 36 poppetry.
+JD car average driving distance was 205 meters per poppetry.
+JD car totally consumed '06:34:53' to deliver all the 36 poppetry.
+JD car average delivery time was '00:10:58' per poppetry.
+
+RobinH:src robinhe$ node simu_jd_car.js
+Connected
+MongoDB query success. XinBox Sites total: 43
+Target cargo / poppetrys:
+ [ [ 29, 2, 3, 30, 9, 35 ],
+  [ 23, 13, 25, 27, 8, 34 ],
+  [ 19, 32, 6, 30, 17, 27 ],
+  [ 23, 21, 3, 17, 41, 8 ],
+  [ 34, 18, 25, 41, 16, 38 ],
+  [ 6, 23, 22, 28, 26, 8 ] ]
+
+XB bot totally drived 22788 meters to deliver all the 36 poppetry.
+XB bot average driving distance was 633 meters per poppetry.
+XB bot totally consumed '04:05:25' to deliver all the 36 poppetry.
+XB bot average delivery time was '00:06:49' per poppetry.
+
+cargoJD : 0 Best Route is : [ 0, '29', '2', '3', '9', '30', '35', 0 ]
+Total Distance: 1263 meters.
+The JD car active running time is : 13 minutes.
+The JD car waiting time is : 27 minutes.
+The JD car total working time is : '00:39:51'
+Successfully delivered at 6  site stops and  6  poppetrys.
+
+cargoJD : 1 Best Route is : [ 0, '23', '27', '25', '13', '8', '34', 0 ]
+Total Distance: 1168 meters.
+The JD car active running time is : 12 minutes.
+The JD car waiting time is : 52 minutes.
+The JD car total working time is : '01:04:04'
+Successfully delivered at 6  site stops and  6  poppetrys.
+
+cargoJD : 2 Best Route is : [ 0, '32', '27', '6', '17', '19', '30', 0 ]
+Total Distance: 1534 meters.
+The JD car active running time is : 15 minutes.
+The JD car waiting time is : 73 minutes.
+The JD car total working time is : '01:27:54'
+Successfully delivered at 6  site stops and  6  poppetrys.
+
+cargoJD : 3 Best Route is : [ 0, '23', '21', '8', '3', '17', '41', 0 ]
+Total Distance: 1499 meters.
+The JD car active running time is : 15 minutes.
+The JD car waiting time is : 80 minutes.
+The JD car total working time is : '01:34:41'
+Successfully delivered at 6  site stops and  6  poppetrys.
+
+cargoJD : 4 Best Route is : [ 0, '25', '18', '16', '34', '41', '38', 0 ]
+Total Distance: 1557 meters.
+The JD car active running time is : 16 minutes.
+The JD car waiting time is : 15 minutes.
+The JD car total working time is : '00:30:43'
+Successfully delivered at 6  site stops and  6  poppetrys.
+
+cargoJD : 5 Best Route is : [ 0, '28', '6', '8', '22', '23', '26', 0 ]
+Total Distance: 1136 meters.
+The JD car active running time is : 11 minutes.
+The JD car waiting time is : 80 minutes.
+The JD car total working time is : '01:30:52'
+Successfully delivered at 6  site stops and  6  poppetrys.
+
+JD car totally drived 8157 meters to deliver all the 36 poppetry.
+JD car average driving distance was 227 meters per poppetry.
+JD car totally consumed '06:48:05' to deliver all the 36 poppetry.
+JD car average delivery time was '00:11:20' per poppetry.

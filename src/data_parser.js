@@ -11,7 +11,7 @@ MongoClient.connect(url, { useNewUrlParser: true }, (err, database) => {
     console.log('Connected');
     var dbo = database.db('bot_simulation');
     var cursor = dbo.collection('bot_sites_data').find();
-    var i = 0;
+    var di = 0;
     cursor.each( function(err, doc){
         // console.log(doc);
         if ( doc === null ) {
@@ -20,19 +20,19 @@ MongoClient.connect(url, { useNewUrlParser: true }, (err, database) => {
             // console.log(z);
             return true;
         }
-        z[i] = [
+        z[di] = [
           doc.properties.postalCode.slice(-3),
           doc.properties.postalCode,
           doc.properties.address,
           doc.geometry.coordinates[0],
           doc.geometry.coordinates[1]
         ];
-        logger.info("SiteSeqID:",i,"SiteID:",z[i][0],"SiteAddr:",z[i][2],z[i][3],z[i][4]);
+        logger.info("SiteSeqID:",di,"SiteID:",z[di][0],"SiteAddr:",z[di][2],z[di][3],z[di][4]);
         // console.log(i);
         // console.log(z[i]);
         // console.log(cursor.hasNext());
         // if (cursor.hasNext()) return true;
-        i++;
+        di++;
     });
     database.close();
     // console.log(z.length);

@@ -22,25 +22,34 @@ var metersLonPerDegree = 111506.26354049367285 * Math.cos(rlat) / (1 + 0.0033584
 // console.log((476.35013937950134-476.34934008121485)*metersLonPerDegree);
 // console.log(Math.abs(39.96038726028536-39.96054761895643)*metersLatPerDegree);
 
-setTimeout(function(){
+setTimeout(function() {
     if (z.length > 0) {
-        console.log("MongoDB query success. XinBox Sites total:",z.length);
-        for (var i = 0; i < (z.length - 1); i++) {
-            distanceOfZ[i] = [];
-            // distanceOfZ[i][i] = 0;
-            for (var j = i + 1; j < z.length; j++) {
-                distanceOfZ[i][j] = Math.round(((Math.abs(z[i][3]-z[j][3]) * metersLonPerDegree ) + (Math.abs(z[i][4]-z[j][4]) * metersLatPerDegree )) * 1000) / 1000;
-                // distanceOfZ[j][i] = distanceOfZ[i][j];
-                // console.log("distanceOfZ[",i,"][",j,"] = distance between ",z[i][0].slice(-2),z[i][2]," and ",z[j][0].slice(-2),z[j][2]," = ",distanceOfZ[i][j],"meters.");
-            }
-            // console.log("only i =",i,distanceOfZ.length);
+        console.log("MongoDB query success. XinBox Sites total: %o",z.length);
+        // initial the distanceOfZ array 
+        // (IMPORTANT: 1. the code block of setTimeout priories run than other code.
+        //             2. the unlegal use the array before claim it cause kinds of errors.
+        //             3. because of distanceOfZ[zj] exist it may use it before loop zi ach it.)
+        for (var zi = 0; zi < z.length; zi++) {
+            // initialize the distanceOfZ[zj]
+            distanceOfZ[zi] = [];
+                // set same z with distance 0
+            distanceOfZ[zi][zi] = 0;
+            // console.log(distanceOfZ[zi]);
         }
-        // distanceOfZ[j][j] = 0;
-        // console.log(z);
+
+        for (var zi = 0; zi < (z.length - 1); zi++) {
+            // calculate the distance between two z.
+            for (var zj = zi + 1; zj < z.length; zj++) {
+                distanceOfZ[zi][zj] = Math.round(((Math.abs(z[zi][3]-z[zj][3]) * metersLonPerDegree ) + (Math.abs(z[zi][4]-z[zj][4]) * metersLatPerDegree )) * 1000) / 1000;
+                distanceOfZ[zj][zi] = distanceOfZ[zi][zj];
+                // console.log("distanceOfZ[",zi,"][",zj,"] = distance between ",z[zi][0].slice(-2),z[zi][2]," and ",z[zj][0].slice(-2),z[zj][2]," = ",distanceOfZ[zi][zj],"meters.");
+            }
+            // console.log("only zi =",zi,distanceOfZ[zi]);
+        }
+        // console.log(distanceOfZ);
     }
-    else console.log("MongoDB connection timeout.");  
+    else
+        throw new Error('MongoDB connection timeout.');  
 }, 5000);
 
-// console.log(distanceOfZ)
-// for (var i = 0; i < distanceOfZ.length; i++)
 module.exports = distanceOfZ;
