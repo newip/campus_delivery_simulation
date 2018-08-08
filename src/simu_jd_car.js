@@ -9,7 +9,7 @@
 //      3. Query the route and chose the delivery sequence
 //      4. The average speed is 6km/h = 1.67 m/s
 //      5. Full load with 6 when setoff from z0
-//      6. Each stop cost 0-1200s by Random
+//      6. Each stop cost 0-900 by Random
 
 const logger = require("./logging_setup");
 // TODO: make data into different/separate logfile.
